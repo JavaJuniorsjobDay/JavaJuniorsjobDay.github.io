@@ -68,6 +68,20 @@
 		color:rgb(252.000000178814,252.000000178814,252.000000178814);
 	}
 
+	input {
+	background-color:transparent;
+  	border: transparent;
+  	padding: 10px;
+  	font-size: 1.2em;
+  	width: 100%;
+	}
+	input:focus{
+		outline-width:0;
+	}
+	input::placeholder {
+  	color: #E85C5E;
+	}
+
 </style>
 
 <div id="g-flyer2form-box" class="ai2html">
@@ -76,10 +90,10 @@
 	<div id="g-flyer2form-Artboard_1" class="g-artboard g-artboard-v4" data-min-width='560'>
 		<img id="g-flyer2form-Artboard_1-img" class="g-aiImg" src="flyer2form-Artboard_1.jpg"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:14.0205%;margin-top:-39.2px;left:27.319%;width:54px;">
-			<p class="g-pstyle0">?</p>
+			<p class="g-pstyle0" style="position: absolute; top:1px; color: white">?</p>
 		</div>
 		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:14.0205%;margin-top:-39.2px;left:39.5535%;width:54px;">
-			<p class="g-pstyle0">?</p>
+			<p class="g-pstyle0" style="color:white">?</p>
 		</div>
 		<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.15%;margin-top:-32.6px;left:9.8195%;width:480px;">
 			<p class="g-pstyle1">JavaJuniors.jobDay()</p>
@@ -88,24 +102,28 @@
 			<p class="g-pstyle2">A few months ago, 12 people started a training to become Java EE developers. Week after week, they threaded safely through servlets, lambdas and object oriented programming. With all the skills learned and inherited from past experiences, they are now ready to join the superclass of Java code crafters. Come meet them on the JavaJuniors.jobDay()! All companies and recruiters will have the chance to briefly introduce themselves before a speeddate with the future junior Java developers. RSVP via the form below.</p>
 		</div>
 		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs" style="top:71.0641%;left:51.2755%;margin-left:-147px;width:52.5%;">
-			<p class="g-pstyle3">Industrieweg 50, 9032 Wondelgem</p>
-			<p class="g-pstyle3">26/02/2018 13u30</p>
+			<p class="g-pstyle3" style="position: absolute; top:-12px;">Industrieweg 50, 9032 Wondelgem</p>
+			<p class="g-pstyle3" style="position: absolute; top:8px; left: 65px">26/02/2018 13u30</p>
 		</div>
+		<form method="post" action="https://ymlp.com/subscribe.php?id=gquuwmsgmgh">
 		<div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:79.9362%;left:36.0046%;margin-left:-42px;width:15%;">
-			<p class="g-pstyle4">Email</p>
+			<p class="g-pstyle4" style="position: absolute; top:-14px; left: 5px; color:white;">Email</p>
+			<input type="text" name="YMP0" size="20" style="position:absolute; left:100px; top: -19px; width: 210px; border-radius: 10px; height: 40px;" placeholder="Email" />
 		</div>
 		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs" style="top:84.8941%;left:32.1658%;margin-left:-64.5px;width:23.0357%;">
-			<p class="g-pstyle4">Company</p>
+			<p class="g-pstyle4" style="position: absolute; top:-16px; left: 5px; color: white;">Company</p>
+			<input type="text" name="YMP1" size="20" style="width: 210px; border-radius: 10px; height: 40px; position: absolute; top: -21px; left: 144px;" placeholder="Company"/>
 		</div>
 		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs" style="top:90.0261%;left:36.0046%;margin-left:-42px;width:15%;">
-			<p class="g-pstyle4">Name</p>
+			<p class="g-pstyle4" style="position: absolute; top:-16px; left: 5px; color: white">Name</p>
+			<input type="text" name="YMP2" size="20" style="width: 210px; border-radius: 10px; height: 40px; position:absolute; top:-20px; left: 100px;" placeholder="Name"/>
 		</div>
 		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs" style="top:94.8101%;left:51.2722%;margin-left:-36.5px;width:13.0357%;">
-			<p class="g-pstyle5">Submit</p>
+			<button class="g-pstyle5" style="position: absolute; top:-18px; left: -1px; color: white; border: none; background-color:#E85C5E;"  type="submit">Submit</button>
 		</div>
+		</form>
 	</div>
 
 </div>
 
 <!-- End ai2html - 2018-01-25 15:16 -->
-
